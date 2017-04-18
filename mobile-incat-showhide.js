@@ -26,8 +26,8 @@ function collapse() {
 function checkHeight() {
 	var incatDesc = $(".incategory-description");
 	if (incatDesc.height() > 100) {
-		$("#show-more").removeClass("show");
-		$("#show-more").addClass("hide");
+		$("#show-more").removeClass("hide");
+		$("#show-more").addClass("show");
 		$(".controls").removeClass("hide");
 		$(".controls").addClass("show");
 	}
