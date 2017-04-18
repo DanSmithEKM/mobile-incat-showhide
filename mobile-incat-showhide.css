@@ -5,7 +5,7 @@
 		.incategory-description {
 			max-height: 180px;
 			position: relative;
-			transition: max-height 1s linear;
+			transition: all 0.3s linear;
 		}
 		
 		.collapsed {
@@ -29,7 +29,8 @@
     		height: 25px;
     		position: absolute;
     		bottom: 0px;
-    		width: 95%;
+		left: 0px			
+    		width: 100%;
 		}
 		
 		.fade {
