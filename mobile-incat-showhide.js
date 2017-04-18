@@ -25,11 +25,11 @@ function collapse() {
 		
 function checkHeight() {
 	var incatDesc = $(".incategory-description");
-	if (incatDesc.height() < 100) {
+	if (incatDesc.height() > 100) {
 		$("#show-more").removeClass("show");
 		$("#show-more").addClass("hide");
-		$(".controls").removeClass("show");
-		$(".controls").addClass("hide");
+		$(".controls").removeClass("hide");
+		$(".controls").addClass("show");
 	}
 }
 checkHeight();
