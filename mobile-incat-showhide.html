@@ -1,15 +1,17 @@
 <head>
+	<!--Add to the head in the main theme-->
 	<link rel="stylesheet" type="text/css" href="/ekmps/shops/[ekm:siteusername][/ekm:siteusername]/resources/Styles/mobile-incat-showhide.css">
 </head>
 <body>	
+	<!--Add to the body in the 'Category Page'-->
 	<div class="incategory-description collapsed" id="pageTop">
 			<div class="incategory-description-header">[ekm:categorypagename]categorypageid='[ekm:categoryid][/ekm:categoryid]';[/ekm:categorypagename]</div>
 			[ekm:incategorydescription][/ekm:incategorydescription]
-			<div class="controls fade show">
+			<div class="controls fade hide">
 				<a href="#"><div class="incategory-button show" id="show-more">Show More</div></a>
 				<a href="#pageTop"><div class="incategory-button hide" id="show-less">Show Less</div></a>
 			</div>
 		</div>
-
+	<!--Insert after all other JS files in the main theme-->
 	<script type="text/javascript" src="/ekmps/shops/[ekm:siteusername][/ekm:siteusername]/resources/other/mobile-incat-showhide.js"></script>
 </body>
